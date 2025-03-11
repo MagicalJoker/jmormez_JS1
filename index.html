@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jmormez_JS1</title>
+   
+</head>
+<body>
+    <script src="script.js"> </script>
+
+    <h2>Gestor de Usuarios | jmormez</h2>
+    
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" placeholder="Ingrese su nombre">
+
+    <br><br>
+
+    <label for="tarea">Tarea:</label><br>
+    <textarea id="tarea" rows="4" cols="50" placeholder="Escriba su tarea aquí..."></textarea>
+
+    <br><br>
+
+    <button onclick="agregarTarea()">Agregar Tarea</button>
+
+    <h3>Lista de Tareas</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Usuario</th>
+                <th>Tarea</th>
+            </tr>
+        </thead>
+        <tbody id="tablaTareas">
+           
+        </tbody>
+    </table>
+
+
+</body>
+</html>
